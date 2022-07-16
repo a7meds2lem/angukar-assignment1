@@ -1,0 +1,30 @@
+.test{
+    color: #1ABC9C !important;
+    border-bottom: solid 3px #1ABC9C;
+    border-radius: 28%;
+}
+/* .test::after{
+    content: "";
+    width: auto;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    color: red;
+} */
+.navbar{
+    z-index: 999;
+    background-color: #2C3E50;
+    
+}
+.navbar a{
+    color: #fff ;
+    font-weight: 400;
+    font-size:30px ;
+}
+.navbar-toggler{
+    color: #1ABC9C;
+}
+.navbar-toggler-icon{
+    background-color: #1ABC9C;
+    border-radius: 20%;
+}

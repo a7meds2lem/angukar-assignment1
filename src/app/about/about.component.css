@@ -1,10 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
 .svg{
     position: relative;
 }
 .svg::before{
     content: "";
-    background-color:#2C3E50 ;
+    background-color:#fff ;
     width: 100px;
     height: 6px;
     position:absolute;
@@ -14,7 +13,7 @@
 }
 .svg::after{
     content: "";
-    background-color:#2C3E50 ;
+    background-color:#fff ;
     width: 100px;
     height: 6px;
     position:absolute;
@@ -22,9 +21,15 @@
     right: 75px;
     border-radius: 10px;
 }
-
-h2{
-    font-weight: 650;
-    font-size: 50px;
-    color: #2C3E50;
+h2 {
+    color: #fff;
+}
+.svg{
+   
+}
+#about{
+    background-color: #1ABC9C;
+}
+body{
+    background-color: #1ABC9C !important; 
 }

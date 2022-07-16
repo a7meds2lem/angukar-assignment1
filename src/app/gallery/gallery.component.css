@@ -1,0 +1,72 @@
+#protofolio{
+    color:#2C3E50;
+}
+/* .svg{
+    position: relative;
+}
+.svg::before{
+    content: "";
+    background-color:#2C3E50 ;
+    width: 100px;
+    height: 6px;
+    position:absolute;
+    top: 50% ;
+    left: 75px;
+    border-radius: 10px;
+}
+.svg::after{
+    content: "";
+    background-color:#2C3E50 ;
+    width: 100px;
+    height: 6px;
+    position:absolute;
+    top: 50% ;
+    right: 75px;
+    border-radius: 10px;
+} */
+.parent{
+    position: relative;
+    
+}
+.icon{
+    color: #000;
+}
+.layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:aquamarine;
+    opacity: 0;
+    transition: all 1s;
+}
+.parent:hover .layer{
+    opacity: 1;
+}
+.caption{
+    position: fixed;
+    inset:0;
+    background-color:rgba(0,0,0,.5);
+    display: none;
+    justify-content: center;
+    align-items:center;
+}
+.image{
+    background-color: #ffffff;
+    width: 70%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+/* .child-caption{
+    width: 70%;
+    height: 70%;
+} */
+.ico{
+    position: absolute;
+    top:0;
+    right: 0;
+    margin: 2%;
+}
